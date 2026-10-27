@@ -46,9 +46,9 @@ except ValueError:
     logger.error("OWNER_ID or ADMIN_ID must be valid integers!")
     raise
 
-YOUR_USERNAME = '@Hackerwibes9'
-UPDATE_CHANNEL = 'https://t.me/geniushackertools'
-YOUTUBE_CHANNEL = 'https://youtube.com/@geniushacker29'
+YOUR_USERNAME = '@gasttt133'
+UPDATE_CHANNEL = 'https://t.me/+JztuPeKKbfpmYjNl'
+YOUTUBE_CHANNEL = 'https://youtube.com/@mgj-e5f?si=ePLl9Z7-n3KqoPxv'
 CHANNEL_USERNAME = '@' + UPDATE_CHANNEL.rstrip('/').split('/')[-1]
 
 BASE_DIR = Path(__file__).parent.absolute()
