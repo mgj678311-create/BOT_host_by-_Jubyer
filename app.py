@@ -25,11 +25,11 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.getenv('8755869104:AAFw-fJIjzJqV8h-Efe6ouUuJrU23yAzpkU')
-OWNER_ID_STR = os.getenv('8201190759')
-ADMIN_ID_STR = os.getenv('8201190759')
-YOUR_USERNAME = os.getenv('@gasttt133')
-UPDATE_CHANNEL = os.getenv('https://t.me/+JztuPeKKbfpmYjNl')
+TOKEN = os.getenv('BOT_TOKEN')
+OWNER_ID_STR = os.getenv('OWNER_ID')
+ADMIN_ID_STR = os.getenv('ADMIN_ID')
+YOUR_USERNAME = os.getenv('YOUR_USERNAME')
+UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL')
 
 if not TOKEN:
     logger.error("BOT_TOKEN not found in environment variables!")
